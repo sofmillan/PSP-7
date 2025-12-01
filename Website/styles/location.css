@@ -32,6 +32,7 @@ nav button a{
   color: black;
 }
 
+
 #logout-btn{
   background-color: var(--light-black);
   color: white;
@@ -43,10 +44,11 @@ nav button a{
   cursor: pointer;
 }
 
-h1{
+main{
 	margin: 1rem;
 }
-
-ul{
-	margin-left: 2rem;
+main iframe{
+	display: block;
+	margin: 0 auto;
+	width:70%;
 }

@@ -2,6 +2,10 @@ h2{
   text-align: center;
   margin-top: 2rem;
 }
+
+header{
+  padding: 1rem;
+}
 nav {
   padding: 0;
   background-color: var(--white);
@@ -9,6 +13,29 @@ nav {
   font-weight: 500;
   align-items: center;
   justify-content: space-between;
+  padding: 1.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+nav button{
+  padding: 6px 10px;
+  border: none;
+  background-color: var(--grey);
+  border-radius: 2px;
+}
+
+nav button:hover{
+  background-color: var(--light-black);
+  cursor: pointer;
+}
+
+nav button:hover a{
+  color: white;
+}
+
+nav button a{
+  text-decoration: none;
+  color: black;
 }
 
 
@@ -59,4 +86,20 @@ nav {
 	cursor: pointer;
 	font-weight: bold;
 	margin: 1rem auto;
+}
+
+#logout-btn{
+  background-color: var(--light-black);
+  color: white;
+}
+
+#logout-btn:hover{
+  background-color: var(--grey);
+  color: black;
+}
+
+#admin-link{
+  display: block;
+  color: var(--orange);
+  margin-top: 1rem;
 }

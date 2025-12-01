@@ -65,6 +65,16 @@
       "image": "https://www.carnation.co.uk/sites/default/files/2024-02/3_0.png",
       "userId": 3,
       "productId": "2"
+    },
+    {
+      "name": "ice cream",
+      "description": "delicious ice cream",
+      "price": 10,
+      "createdAt": "2025-11-30T15:33:09.465Z",
+      "id": 106.13577049587941,
+      "image": "https://www.carnation.co.uk/sites/default/files/2024-02/3_0.png",
+      "userId": 1,
+      "productId": "1"
     }
   ]
 }

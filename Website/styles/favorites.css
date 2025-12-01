@@ -1,14 +1,16 @@
-
-.products_container{
+header{
+  padding: 1rem;
+}
+#container{
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.products_container .product{
-  min-width: 398px;
-  height: 419px;
+.product{
+  min-width: 358px;
+  height: 380px;
   border-radius: 8px;
   position: relative;
   background-color: var(--white);
