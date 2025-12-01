@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <title>Home - Products</title>
+
+</head>
+<body>
+    <header>
+      <nav>
+        <button><a href="home.html" class="button-link">Home</a></button>
+          <button><a href="location.html" class="button-link">Location</a></button>
+          <button><a href="contact.html" class="button-link">Contact</a></button>
+          <button><a href="favorites.html" class="button-link">Favorites</a></button>
+          <button id="logout-btn">Logout</button>
+        </nav>
+        <p>
+          Welcome to Glaciar! Your sweetest stop for handcrafted ice cream. Explore
+          our delicious flavors, check out our seasonal specials, and place your
+          quick delivery order. Happiness is just a click away!
+        </p>
+        
+        <a id="admin-link" href="create-product.html" style="display: none;">Create New Product</a>
+    </header>
+
+    <main>
+        <h2>Available Products</h2>
+        <section class="products-section">
+
+            <div class="products_container">
+                <article class="product">
+      <figure>
+        <img
+          src="https://assets.turner-price.com/2/mobile/ICE733_cfc5378423a1e8750e5696652691fc02.jpg"
+          alt="Ice cream image"
+        />
+      </figure>
+      <p>Ice cream cone</p>
+      <p>Price: 3$</p>
+      <button
+      class="favorite">
+        Add to cart
+      </button>
+      </article>
+        
+            </div>
+        </section>
+    </main>
+    <script src="../scripts/home.js" type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
