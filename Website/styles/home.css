@@ -47,7 +47,8 @@ nav button a{
 }
 
 .products_container .product{
-  min-width: 398px;
+  width: 398px;
+
   height: 419px;
   border-radius: 8px;
   position: relative;

@@ -11,34 +11,28 @@
       "email": "user@test.com",
       "password": "userpassword",
       "role": "user"
-    },
-    {
-      "email": "s@a.com",
-      "password": "123456",
-      "role": "user",
-      "id": 3
     }
   ],
   "products": [
     {
-      "name": "ice cream",
-      "description": "delicious ice cream",
-      "price": 10,
+      "name": "Single Scoop",
+      "description": "One serving of ice cream flavor, served in a cup or cone.",
+      "price": 5,
       "createdAt": "2025-11-30T15:33:09.465Z",
       "id": 1,
       "image": "https://www.carnation.co.uk/sites/default/files/2024-02/3_0.png"
     },
     {
-      "name": "cone",
-      "description": "delicious cone",
+      "name": "Ice Cream Sandwich",
+      "description": "One scoop of ice cream placed between two cookies",
       "price": 10,
       "createdAt": "2025-11-30T15:37:44.708Z",
       "id": 2,
-      "image": "https://www.carnation.co.uk/sites/default/files/2024-02/3_0.png"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlFjE3AnV6JNV0L04NrCc_87MnKWhp5psz4g&s"
     },
     {
       "name": "Banana split",
-      "description": "bana split",
+      "description": "A split banana topped with three scoops of ice cream, three toppings, and whipped cream.",
       "price": "15",
       "image": "https://icecreamfromscratch.com/wp-content/uploads/2022/02/Banana-Split-1.2-720x720.jpg",
       "createdAt": "2025-12-01T01:13:12.226Z",
@@ -47,34 +41,34 @@
   ],
   "favorites": [
     {
-      "name": "Banana split",
-      "description": "bana split",
-      "price": "15",
-      "image": "https://icecreamfromscratch.com/wp-content/uploads/2022/02/Banana-Split-1.2-720x720.jpg",
-      "createdAt": "2025-12-01T01:13:12.226Z",
-      "id": 97.30647642871142,
-      "userId": 3,
-      "productId": "3"
-    },
-    {
-      "name": "cone",
-      "description": "delicious cone",
+      "name": "Ice Cream Sandwich",
+      "description": "One scoop of ice cream placed between two cookies",
       "price": 10,
       "createdAt": "2025-11-30T15:37:44.708Z",
-      "id": 91.08793861917447,
-      "image": "https://www.carnation.co.uk/sites/default/files/2024-02/3_0.png",
-      "userId": 3,
+      "id": 54.58425384642236,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlFjE3AnV6JNV0L04NrCc_87MnKWhp5psz4g&s",
+      "userId": 1,
       "productId": "2"
     },
     {
-      "name": "ice cream",
-      "description": "delicious ice cream",
-      "price": 10,
-      "createdAt": "2025-11-30T15:33:09.465Z",
-      "id": 106.13577049587941,
-      "image": "https://www.carnation.co.uk/sites/default/files/2024-02/3_0.png",
+      "name": "Banana split",
+      "description": "A split banana topped with three scoops of ice cream, three toppings, and whipped cream.",
+      "price": "15",
+      "image": "https://icecreamfromscratch.com/wp-content/uploads/2022/02/Banana-Split-1.2-720x720.jpg",
+      "createdAt": "2025-12-01T01:13:12.226Z",
+      "id": 57.501264489958935,
       "userId": 1,
-      "productId": "1"
+      "productId": "3"
+    },
+    {
+      "name": "Ice Cream Sandwich",
+      "description": "One scoop of ice cream placed between two cookies",
+      "price": 10,
+      "createdAt": "2025-11-30T15:37:44.708Z",
+      "id": 82.28343465345473,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlFjE3AnV6JNV0L04NrCc_87MnKWhp5psz4g&s",
+      "userId": 1,
+      "productId": "2"
     }
   ]
 }

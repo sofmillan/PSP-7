@@ -1,18 +1,15 @@
 const user = JSON.parse(localStorage.getItem('currentUser'));
 
-// --- Initial check and Admin Guard ---
 if (!user || user.role !== 'admin') {
-    // If not logged in or not an admin, redirect to home/login
     window.location.href = 'home.html'; 
 }
 
-// --- Logout ---
 document.getElementById('logout-btn').addEventListener('click', () => {
     localStorage.removeItem('currentUser');
     window.location.href = '../index.html';
 });
 
-// --- Create Product ---
+
 document.getElementById('create-product-form').addEventListener('submit', async (e) => {
     e.preventDefault();
     const name = document.getElementById('product-name').value;
