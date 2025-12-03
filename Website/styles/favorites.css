@@ -9,7 +9,7 @@ header{
 }
 
 .product{
-  min-width: 358px;
+  width: 358px;
   height: 380px;
   border-radius: 8px;
   position: relative;

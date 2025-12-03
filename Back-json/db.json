@@ -11,6 +11,18 @@
       "email": "user@test.com",
       "password": "userpassword",
       "role": "user"
+    },
+    {
+      "email": "sofia@example.com",
+      "password": "123456",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "email": "isa@example.com",
+      "password": "123456",
+      "role": "user",
+      "id": 4
     }
   ],
   "products": [
@@ -37,6 +49,14 @@
       "image": "https://icecreamfromscratch.com/wp-content/uploads/2022/02/Banana-Split-1.2-720x720.jpg",
       "createdAt": "2025-12-01T01:13:12.226Z",
       "id": 3
+    },
+    {
+      "name": "Milkshake",
+      "description": "Two scoops of ice cream blended with milk.",
+      "price": "10",
+      "image": "https://www.gelsons.com/_next/image?url=https%3A%2F%2Fhqgelsonscom.blob.core.windows.net%2Fuploads%2Fimages%2F_540x540_crop_center-center_none%2FG1674-20220719-068.jpg%3Fv%3D1662574667&w=1536&q=80",
+      "createdAt": "2025-12-03T00:40:26.978Z",
+      "id": 4
     }
   ],
   "favorites": [
@@ -69,6 +89,36 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlFjE3AnV6JNV0L04NrCc_87MnKWhp5psz4g&s",
       "userId": 1,
       "productId": "2"
+    },
+    {
+      "name": "Ice Cream Sandwich",
+      "description": "One scoop of ice cream placed between two cookies",
+      "price": 10,
+      "createdAt": "2025-11-30T15:37:44.708Z",
+      "id": 22,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlFjE3AnV6JNV0L04NrCc_87MnKWhp5psz4g&s",
+      "userId": 3,
+      "productId": "2"
+    },
+    {
+      "name": "Banana split",
+      "description": "A split banana topped with three scoops of ice cream, three toppings, and whipped cream.",
+      "price": "15",
+      "image": "https://icecreamfromscratch.com/wp-content/uploads/2022/02/Banana-Split-1.2-720x720.jpg",
+      "createdAt": "2025-12-01T01:13:12.226Z",
+      "id": 69,
+      "userId": 4,
+      "productId": "3"
+    },
+    {
+      "name": "Milkshake",
+      "description": "Two scoops of ice cream blended with milk.",
+      "price": "10",
+      "image": "https://www.gelsons.com/_next/image?url=https%3A%2F%2Fhqgelsonscom.blob.core.windows.net%2Fuploads%2Fimages%2F_540x540_crop_center-center_none%2FG1674-20220719-068.jpg%3Fv%3D1662574667&w=1536&q=80",
+      "createdAt": "2025-12-03T00:40:26.978Z",
+      "id": 71,
+      "userId": 4,
+      "productId": "4"
     }
   ]
 }
